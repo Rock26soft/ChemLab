@@ -22,7 +22,7 @@ jobs:
         run: npm install node-fetch
 
       - name: Execute JavaScript action
-        run: node index.js
+        run: node index.mjs
 
       - name: Upload JSON artifact
         uses: actions/upload-artifact@v2
